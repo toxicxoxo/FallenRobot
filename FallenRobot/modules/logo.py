@@ -50,7 +50,7 @@ LOGO_LINKS = [
     "https://telegra.ph/file/06739fac44a5dc9bbcc84.jpg",
     "https://telegra.ph/file/3f08027fa00cbe727a515.jpg",
     "https://telegra.ph/file/0c4c9892267711eac1415.jpg",
-    "https://telegra.ph/file/69042499f420008b9ae24.jpg',
+    "https://telegra.ph/file/69042499f420008b9ae24.jpg",
     "https://telegra.ph/file/d90e40e9265936123821e.jpg",
     "https://telegra.ph/file/46a02f5907899c4f9d49a.jpg",
     "https://telegra.ph/file/558a1b1ab7596aa8b9314.jpg",
