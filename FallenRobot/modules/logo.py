@@ -47,6 +47,17 @@ LOGO_LINKS = [
     "https://telegra.ph/file/79fad473ffe888ed771b2.jpg",
     "https://telegra.ph/file/eafd526d9dcc164d7269f.jpg",
     "https://telegra.ph/file/98b50e8424dd2be9fc127.jpg",
+    "https://telegra.ph/file/06739fac44a5dc9bbcc84.jpg",
+    "https://telegra.ph/file/3f08027fa00cbe727a515.jpg",
+    "https://telegra.ph/file/0c4c9892267711eac1415.jpg",
+    "https://telegra.ph/file/69042499f420008b9ae24.jpg',
+    "https://telegra.ph/file/d90e40e9265936123821e.jpg",
+    "https://telegra.ph/file/46a02f5907899c4f9d49a.jpg",
+    "https://telegra.ph/file/558a1b1ab7596aa8b9314.jpg",
+    "https://telegra.ph/file/768228aa930ccb45472bc.jpg",
+    "https://telegra.ph/file/2365751e209e460bedce1.jpg",
+    "https://telegra.ph/file/3d3bc9ede725f2e10e921.jpg",
+    "https://telegra.ph/file/ff1a85057ef19a2e9f5c4.jpg",
     "https://telegra.ph/file/c1ad29c189162a1404749.jpg",
     "https://telegra.ph/file/2d288450ebecc500addbd.jpg",
     "https://telegra.ph/file/9715353976a99becd7632.jpg",
@@ -288,19 +299,19 @@ async def lego(event):
         fname = "fallen.png"
         img.save(fname, "png")
         await telethn.send_file(
-            event.chat_id, file=fname, caption=f"ʟᴏɢᴏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ғᴀʟʟᴇɴ ✘ ʀᴏʙᴏᴛ"
+            event.chat_id, file=fname, caption=f"ʟᴏɢᴏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ HOMIES "
         )
         await pesan.delete()
         if os.path.exists(fname):
             os.remove(fname)
     except Exception as e:
-        await event.reply(f"ғʟᴏᴏᴅᴡᴀɪᴛ ᴇʀʀᴏʀ, ʀᴇᴩᴏʀᴛ ᴛʜɪs ᴀᴛ @DevilsHeavenMF")
+        await event.reply(f"ғʟᴏᴏᴅᴡᴀɪᴛ ᴇʀʀᴏʀ, ʀᴇᴩᴏʀᴛ ᴛʜɪs ᴀᴛ @real_homies")
 
 
 __mod_name__ = "Lᴏɢᴏ​"
 
 __help__ = """
-Fallen Robot can create some beautiful and attractive logo for your profile pics.
+HOMIES Robot can create some beautiful and attractive logo for your profile pics.
 
 ❍ /logo (Text) *:* Create a logo of your given text with random view.
 """
