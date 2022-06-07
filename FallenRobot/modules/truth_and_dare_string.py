@@ -58,7 +58,7 @@ TRUTH = (
 "Spin around 12 times and try to walk straight.",
 "Put on a blindfold and touch the other players’ faces until you can figure out who it is.",
 "Let the other players redo your hairstyle.",
-"Eat a raw egg.',
+"Eat a raw egg.",
 " Let the player to your right redo your makeup.",
 " Pretend to be a squirrel until your next turn.",
 "Dump a bucket of cold water on your head.",
