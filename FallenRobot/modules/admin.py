@@ -37,7 +37,7 @@ def set_sticker(update: Update, context: CallbackContext):
     user = update.effective_user
 
     if user_can_changeinfo(chat, user, context.bot.id) is False:
-        return msg.reply_text("You're missing rights to change chat info!")
+        return msg.reply_text("You're missing rights to change chat info!Tumse Na Ho Payga")
 
     if msg.reply_to_message:
         if not msg.reply_to_message.sticker:
@@ -66,7 +66,7 @@ def setchatpic(update: Update, context: CallbackContext):
     user = update.effective_user
 
     if user_can_changeinfo(chat, user, context.bot.id) is False:
-        msg.reply_text("You are missing right to change group info!")
+        msg.reply_text("You are missing right to change group info!Tumse Na Ho Payga")
         return
 
     if msg.reply_to_message:
@@ -102,7 +102,7 @@ def rmchatpic(update: Update, context: CallbackContext):
     user = update.effective_user
 
     if user_can_changeinfo(chat, user, context.bot.id) is False:
-        msg.reply_text("You don't have enough rights to delete group photo")
+        msg.reply_text("You don't have enough rights to delete group photo Tumse Na Ho Payga")
         return
     try:
         context.bot.delete_chat_photo(int(chat.id))
@@ -120,7 +120,7 @@ def set_desc(update: Update, context: CallbackContext):
     user = update.effective_user
 
     if user_can_changeinfo(chat, user, context.bot.id) is False:
-        return msg.reply_text("You're missing rights to change chat info!")
+        return msg.reply_text("You're missing rights to change chat info!Tumse Na Ho Payga")
 
     tesc = msg.text.split(None, 1)
     if len(tesc) >= 2:
@@ -145,7 +145,7 @@ def setchat_title(update: Update, context: CallbackContext):
     args = context.args
 
     if user_can_changeinfo(chat, user, context.bot.id) is False:
-        msg.reply_text("You don't have enough rights to change chat info!")
+        msg.reply_text("You don't have enough rights to change chat info!Tumse Na Ho Payga")
         return
 
     title = " ".join(args)
@@ -183,7 +183,7 @@ def promote(update: Update, context: CallbackContext) -> str:
         not (promoter.can_promote_members or promoter.status == "creator")
         and user.id not in DRAGONS
     ):
-        message.reply_text("You don't have the necessary rights to do that!")
+        message.reply_text("You don't have the necessary rights to do that!Tumse Na Ho Payga")
         return
 
     user_id = extract_user(message, args)
@@ -200,7 +200,7 @@ def promote(update: Update, context: CallbackContext) -> str:
         return
 
     if user_member.status in ("administrator", "creator"):
-        message.reply_text("How am I meant to promote someone that's already an admin?")
+        message.reply_text("How am I meant to promote someone that's already an admin? Bhagwan He Bna De Ise")
         return
 
     if user_id == bot.id:
@@ -282,7 +282,7 @@ def spromote(update: Update, context: CallbackContext) -> str:
         return
 
     if user_member.status in ("administrator", "creator"):
-        message.reply_text("How am I meant to promote someone that's already an admin?")
+        message.reply_text("How am I meant to promote someone that's already an admin? Bhagwan He Bna De Ise")
         return
 
     if user_id == bot.id:
@@ -343,7 +343,7 @@ def fullpromote(update: Update, context: CallbackContext) -> str:
         not (promoter.can_promote_members or promoter.status == "creator")
         and user.id not in DRAGONS
     ):
-        message.reply_text("You don't have the necessary rights to do that!")
+        message.reply_text("You don't have the necessary rights to do that!Tumse Na Ho Payga")
         return
 
     user_id = extract_user(message, args)
@@ -442,7 +442,7 @@ def demote(update: Update, context: CallbackContext) -> str:
         return
 
     if user_member.status == "creator":
-        message.reply_text("This person CREATED the chat, how would I demote them?")
+        message.reply_text("This person CREATED the chat, how would I demote them? Big LOL ")
         return
 
     if not user_member.status == "administrator":
@@ -524,7 +524,7 @@ def set_title(update: Update, context: CallbackContext):
 
     if user_member.status == "creator":
         message.reply_text(
-            "This person CREATED the chat, how can i set custom title for him?",
+            "This person CREATED the chat, how can i set custom title for him?BIG LOL",
         )
         return
 
@@ -641,7 +641,7 @@ def unpin(update: Update, context: CallbackContext):
         not (unpinner.can_pin_messages or unpinner.status == "creator")
         and user.id not in DRAGONS
     ):
-        message.reply_text("You don't have the necessary rights to do that!")
+        message.reply_text("You don't have the necessary rights to do that!Tumse Na Ho Payga")
         return
 
     if msg.chat.username:
