@@ -121,7 +121,7 @@ def warn(
             [
                 [
                     InlineKeyboardButton(
-                        "✗ ʀᴇᴍᴏᴠᴇ ᴡᴀʀɴ ​✗", callback_data="rm_warn({})".format(user.id)
+                        " ʀᴇᴍᴏᴠᴇ ᴡᴀʀɴ ​", callback_data="rm_warn({})".format(user.id)
                     )
                 ]
             ]
@@ -184,7 +184,7 @@ def button(update: Update, context: CallbackContext) -> str:
             )
         else:
             update.effective_message.edit_text(
-                "User already has no warns.", parse_mode=ParseMode.HTML
+                "User already has no warns Lucky.", parse_mode=ParseMode.HTML
             )
 
     return ""
@@ -219,7 +219,7 @@ def warn_user(update: Update, context: CallbackContext) -> str:
         else:
             return warn(chat.get_member(user_id).user, chat, reason, message, warner)
     else:
-        message.reply_text("That looks like an invalid User ID to me.")
+        message.reply_text("That looks like an invalid User ID to me lol.")
     return ""
 
 
