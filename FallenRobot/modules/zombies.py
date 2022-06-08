@@ -51,7 +51,7 @@ async def is_administrator(user_id: int, message):
 
 
 @telethn.on(events.NewMessage(pattern="^[!/]zombies ?(.*)"))
-async def rm_deletedacc(show):
+async def rmdeletedacc(show):
     con = show.pattern_match.group(1).lower()
     del_u = 0
     del_status = "**Group clean, 0 deleted accounts found.**"
@@ -105,4 +105,4 @@ __help__ = """
 """
 
 
-__mod_name__ = "Zᴏᴍʙɪᴇ"
+__mod_name__ = "NOT IN USE"
