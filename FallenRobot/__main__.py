@@ -76,27 +76,27 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*卄𝓲 ,\n ᴛʜɪs ɪs {}* [!](https://telegra.ph/file/42c095a2ecbd65f81d1bc.jpg)\n\n *ɪ ᴀᴍ ᴛʜᴇ ᴍᴏｓᴛ ᴘᴏᴡᴇʀᖴᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴏᶠ ᴛᴇʟᴇɢʀᴀᴍ..\n ɪ ʜᴀᴠᴇ ᴀᴡᴇ𝐒ᴏᴍᴇ 𝐟ᴇᴀᴛᴜʀᴇs ᴀɴᴅ ɴᴏ ᴏɴᴇ ᴄᴀɴ ʙᴇᴀᴛ ᴍᴇ ᴏʀ ɢᴇᴛᴛɪɴɢ ɪɴƒᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ𝕊 ᴄʟɪᴄᴋ ᴏɴ ᴄᴏᴍᴍᴀɴᴅ𝕤 ʙᴜᴛᴛᴏɴ ᴏʀ JOIN OUR FEDERATION joinfed 520fce7b-746d-4e0a-9a4e-6923a1df7663*​ /help
+*❤卄i ,\n 🐼ᴛʜɪs ɪs {}* [!](https://telegra.ph/file/42c095a2ecbd65f81d1bc.jpg)\n\n *👮 ɪ ᴀᴍ ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀᖴᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴏᶠ ᴛᴇʟᴇɢʀᴀᴍ..\n ɪ ʜᴀᴠᴇ ᴀᴡᴇ𝐒ᴏᴍᴇ 𝐟ᴇᴀᴛᴜʀᴇs ᴀɴᴅ ɴᴏ ᴏɴᴇ ᴄᴀɴ ʙᴇᴀᴛ ᴍᴇ ᴏʀ ɢᴇᴛᴛɪɴɢ ɪɴƒᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ𝕊 ᴄʟɪᴄᴋ ᴏɴ ᴄᴏᴍᴍᴀɴᴅ𝕤 ʙᴜᴛᴛᴏɴ ᴏʀ JOIN OUR FEDERATION joinfed 520fce7b-746d-4e0a-9a4e-6923a1df7663*​ /help
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="✗ADD ME IN FAMILY​✗",
+            text="❤ADD ME IN FAMILY​❤",
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="🎀 CONTROL & Cᴍᴅs​​​ 🎀", callback_data="help_back"),
+        InlineKeyboardButton(text="👮 CONTROL & Cᴍᴅs​​​ 👮", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(text="💞 READ ME​​ 💞", callback_data="fallen_"),
-        InlineKeyboardButton(text="🎀 WINDY 🎀", callback_data="source_"),
+        InlineKeyboardButton(text="🌼 WINDY 🌼", callback_data="source_"),
     ],
     [
-        InlineKeyboardButton(text="🎀 sᴜᴘᴘᴏʀᴛ 🎀", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="🍁 sᴜᴘᴘᴏʀᴛ 🍁", url=f"https://t.me/{SUPPORT_CHAT}"),
         InlineKeyboardButton(
-            text="🎀 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🎀", url=f"https://t.me/{OWNER_USERNAME}"
+            text="🍁 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🍁", url=f"https://t.me/{OWNER_USERNAME}"
         ),
     ],
 ]
@@ -104,7 +104,7 @@ buttons = [
 FallenRobot_IMG = "https://telegra.ph/file/42c095a2ecbd65f81d1bc.jpg"
 
 HELP_STRINGS = f"""
-HOMIES  *ᴇxᴄʟᴜsɪᴠᴇ ꜰFᴇᴀᴛᴜʀᴇs*\n*» ᴄʜᴇᴄᴋᴏᴜᴛ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs*\n*» ᴀʟʟ ᴏꜰ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !*\n*» IF ʏᴏᴜ ɢᴏᴛ ᴀɴʏ ɪssᴜᴇ ᴏʀ ʙᴜɢ ɪɴ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴘʟᴇᴀsᴇ ʀᴇᴘᴏʀᴛ ɪᴛ ᴛᴏ @{SUPPORT_CHAT}*\n\n*ㅤㅤㅤ» ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅ «  *\n\n➲ /start : *Sᴛᴀʀᴛ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ​.*\n➲ /donate : *sᴜᴘᴘᴏʀᴛ ᴍᴇ ʙʏ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ᴍʏ ʜᴀʀᴅᴡᴏʀᴋ​.*\n➲ /help  : *ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅ Sᴇᴄᴛɪᴏɴ.*\n*   ɪɴ ᴘᴍ : ᴡɪʟʟ ᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ​ ᴏʀ ᴀʟʟ  ᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇ.*\n*  ‣ ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ​ ᴍᴏᴅᴜʟᴇ.*"""
+❤HOMIES❤  *🍁ᴇxᴄʟᴜsɪᴠᴇ ꜰFᴇᴀᴛᴜʀᴇs🍁*\n*» 🍁ᴄʜᴇᴄᴋᴏᴜᴛ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs*\n*» ᴀʟʟ ᴏꜰ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !*\n*» IF ʏᴏᴜ ɢᴏᴛ ᴀɴʏ ɪssᴜᴇ ᴏʀ ʙᴜɢ ɪɴ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴘʟᴇᴀsᴇ ʀᴇᴘᴏʀᴛ ɪᴛ ᴛᴏ @{SUPPORT_CHAT}*\n\n*ㅤㅤ     ㅤ💥 » ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅ « 💥  *\n\n➲ /start : *Sᴛᴀʀᴛ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ​.*\n➲ /donate : *sᴜᴘᴘᴏʀᴛ ᴍᴇ ʙʏ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ᴍʏ ʜᴀʀᴅᴡᴏʀᴋ​.*\n➲ /help  : *ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅ Sᴇᴄᴛɪᴏɴ.*\n*   ɪɴ ᴘᴍ : ᴡɪʟʟ ᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ​ ᴏʀ ᴀʟʟ  ᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇ.*\n*  ‣ ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ​ ᴍᴏᴅᴜʟᴇ.*"""
 
 DONATE_STRING = """[𝐇𝐈𝐌](https://t.me/real_homies)"""
 
@@ -217,7 +217,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="ɪ ᴀᴍ ᴀʟɪᴠᴇ HOMIES !\n<b>ɪ ᴅɪᴅɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ​:</b> <code>{}</code>".format(
+            caption="ɪ ᴀᴍ ᴀʟɪᴠᴇ HOMIES ❤!\n<b>ɪ ᴅɪᴅɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ​:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -374,7 +374,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text="""*HI,*\n\n*ᴛʜɪs ɪs HOMIES MANAGER*\n\n*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [ɢɪᴛʜᴜʙ](https://github.com/toxicxoxoFallenRobo)\n\n*ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs ɪɴ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴀɴᴅ ɴᴏᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ʏᴇᴛ*\n*sᴏ ɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ʀᴇǫᴜᴇsᴛ ᴀɴʏ ғᴇᴀᴛᴜʀᴇ, ᴩʟᴇᴀsᴇ ʟᴇᴛ ᴜs ᴋɴᴏᴡ ᴀᴛ* [Real H.O.M.I.E.S](https://t.me/real_homies) *""",
+            text="""*❤HI,*\n\n*ᴛʜɪs ɪs HOMIES MANAGER*\n\n*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [ɢɪᴛʜᴜʙ](https://github.com/toxicxoxoFallenRobo)\n\n*ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs ɪɴ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴀɴᴅ ɴᴏᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ʏᴇᴛ*\n*sᴏ ɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ʀᴇǫᴜᴇsᴛ ᴀɴʏ ғᴇᴀᴛᴜʀᴇ, ᴩʟᴇᴀsᴇ ʟᴇᴛ ᴜs ᴋɴᴏᴡ ᴀᴛ* [Real H.O.M.I.E.S](https://t.me/real_homies) *""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
